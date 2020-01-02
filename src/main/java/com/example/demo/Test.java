@@ -13,7 +13,7 @@ public class Test {
     @RequestMapping(value = "",method = RequestMethod.GET)
     public void print(HttpServletResponse response){
         try {
-            response.getWriter().println("hell");
+            response.getWriter().println("hell22222222");
         } catch (IOException e) {
             e.printStackTrace();
         }
